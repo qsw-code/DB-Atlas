@@ -1,5 +1,12 @@
 # Database-Retrieval-Recommendation
 
+# 🌐 Access & Deployment
+
+You can follow the steps below to run the system locally from scratch, or directly visit our pre-deployed search and visualization system at:
+🔗 **[http://123.123.123.123:456](http://123.123.123.123:456)**
+
+
+
 # 🚀 Running Steps
 
 Follow the steps below to run the system from scratch.
