@@ -9,13 +9,12 @@ You can follow the steps below to run the system locally from scratch, or direct
 
 # 🚀 Running Steps
 
-Follow the steps below to run the system from scratch.
+Follow the steps below to run the system from scratch：
 
----
 
-## 🛠️ Step 1: Download the LLM / Embedding Model
+## 🛠️ Step 1: Download the LLM-Embedding Model
 
-First, download the **Qwen embedding model** and place it under the `llm_model/` directory.
+First, download the **qwen3-8b-emb** and place it under the `llm_model/` directory.
 
 ### 📂 Example directory structure:
 ```text
@@ -26,11 +25,6 @@ llm_model/
     ├── tokenizer.json
     └── ...
 ```
-
-### 💡 Configuration Check:
-Make sure the path matches the configuration:
-`CONFIG["emb_model_path"] = "llm_model/qwen3-8b-emb"`
-
 ---
 
 ## ⚙️ Step 2: Run the Embedding Pipeline
