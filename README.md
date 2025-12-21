@@ -3,7 +3,7 @@
 # 🌐 Access & Deployment
 
 You can follow the steps below to run the system locally from scratch, or directly visit our pre-deployed search and visualization system at:
-🔗 **[http://123.123.123.123:456](http://123.123.123.123:456)**
+🔗 **[http://27.106.99.149:9300/](http://27.106.99.149:9300/)**
 
 
 
