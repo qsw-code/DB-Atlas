@@ -1,0 +1,881 @@
+[
+  {
+    "query_id": "Mixed_001",
+    "intersecting_domains": [
+      "Materials Science"
+    ],
+    "user_query": "perovskite solar cell stability",
+    "fuzzy_intent_explanation": "The user seeks datasets on degradation and operational stability of perovskite solar cells under varying light, temperature, and humidity conditions to model lifetime and failure modes."
+  },
+  {
+    "query_id": "Mixed_002",
+    "intersecting_domains": [
+      "Climate Science",
+      "Economics",
+      "Public Policy"
+    ],
+    "user_query": "carbon pricing emissions leakage",
+    "fuzzy_intent_explanation": "The user explores how carbon pricing policies shift emissions across sectors and borders, quantifying leakage and competitiveness effects under different market designs."
+  },
+  {
+    "query_id": "Mixed_003",
+    "intersecting_domains": [
+      "Neuroscience"
+    ],
+    "user_query": "synaptic connectivity development trajectories",
+    "fuzzy_intent_explanation": "The user investigates how synaptic connectivity patterns mature across development, comparing circuit wiring trajectories across brain regions, species, and environmental conditions."
+  },
+  {
+    "query_id": "Mixed_004",
+    "intersecting_domains": [
+      "Environmental Health",
+      "Epidemiology",
+      "Atmospheric Science"
+    ],
+    "user_query": "air pollution cardiovascular morbidity gradients",
+    "fuzzy_intent_explanation": "The user analyzes spatial gradients linking ambient air pollutants to cardiovascular morbidity, integrating exposure fields with hospitalization or mortality records across urban populations."
+  },
+  {
+    "query_id": "Mixed_005",
+    "intersecting_domains": [
+      "Ecology"
+    ],
+    "user_query": "forest fragmentation biodiversity resilience",
+    "fuzzy_intent_explanation": "The user examines how habitat fragmentation affects species richness and functional diversity, assessing resilience, edge effects, and thresholds across forest landscapes."
+  },
+  {
+    "query_id": "Mixed_006",
+    "intersecting_domains": [
+      "Agronomy",
+      "Hydrology",
+      "Remote Sensing"
+    ],
+    "user_query": "drought stress crop yield anomalies",
+    "fuzzy_intent_explanation": "The user studies relationships between drought severity indicators and crop yield anomalies, leveraging hydrologic metrics and satellite observations to detect stress impacts."
+  },
+  {
+    "query_id": "Mixed_007",
+    "intersecting_domains": [
+      "Genomics"
+    ],
+    "user_query": "polygenic risk score transferability",
+    "fuzzy_intent_explanation": "The user evaluates how well polygenic risk scores transfer across ancestries and cohorts, assessing predictive performance and bias across diverse populations."
+  },
+  {
+    "query_id": "Mixed_008",
+    "intersecting_domains": [
+      "Urban Planning",
+      "Energy Systems",
+      "Climate Science"
+    ],
+    "user_query": "urban heat islands energy demand",
+    "fuzzy_intent_explanation": "The user assesses how urban heat island intensity influences building energy demand and peak loads across neighborhoods under different meteorological conditions."
+  },
+  {
+    "query_id": "Mixed_009",
+    "intersecting_domains": [
+      "Epidemiology"
+    ],
+    "user_query": "influenza transmission seasonality drivers",
+    "fuzzy_intent_explanation": "The user explores drivers of seasonal patterns in influenza transmission, including climate variables, contact rates, and immunity dynamics across regions."
+  },
+  {
+    "query_id": "Mixed_010",
+    "intersecting_domains": [
+      "Finance",
+      "Climate Science",
+      "Risk Management"
+    ],
+    "user_query": "financial stress climate risk spillovers",
+    "fuzzy_intent_explanation": "The user investigates how climate risk shocks propagate through financial systems, examining spillovers to asset prices, credit spreads, and systemic stress measures."
+  },
+  {
+    "query_id": "Mixed_011",
+    "intersecting_domains": [
+      "Marine Science"
+    ],
+    "user_query": "ocean microplastic size distributions",
+    "fuzzy_intent_explanation": "The user seeks patterns in microplastic particle size spectra across basins, depths, and sampling methodologies to infer sources and transport."
+  },
+  {
+    "query_id": "Mixed_012",
+    "intersecting_domains": [
+      "Climate Science",
+      "Energy Systems"
+    ],
+    "user_query": "urban heat islands and energy demand",
+    "fuzzy_intent_explanation": "The user aims to relate urban thermal anomalies to electricity consumption peaks and diurnal load variability across cities and seasons."
+  },
+  {
+    "query_id": "Mixed_013",
+    "intersecting_domains": [
+      "Soil Science"
+    ],
+    "user_query": "soil carbon mineralization kinetics",
+    "fuzzy_intent_explanation": "The user explores temperature and moisture dependencies of soil organic matter decomposition rates across soil types and horizons."
+  },
+  {
+    "query_id": "Mixed_014",
+    "intersecting_domains": [
+      "Environmental Health",
+      "Cognitive Science"
+    ],
+    "user_query": "air pollution and cognitive performance",
+    "fuzzy_intent_explanation": "The user examines associations between ambient pollutant exposures and population-level neurocognitive metrics over time and space."
+  },
+  {
+    "query_id": "Mixed_015",
+    "intersecting_domains": [
+      "Astrophysics"
+    ],
+    "user_query": "galaxy cluster mass function evolution",
+    "fuzzy_intent_explanation": "The user investigates redshift-dependent changes in cluster mass distributions to constrain cosmological parameters and structure formation."
+  },
+  {
+    "query_id": "Mixed_016",
+    "intersecting_domains": [
+      "Hydrology",
+      "Agricultural Science"
+    ],
+    "user_query": "drought indices and crop yield variability",
+    "fuzzy_intent_explanation": "The user seeks relationships between standardized drought metrics and regional yield anomalies across crops and growing seasons."
+  },
+  {
+    "query_id": "Mixed_017",
+    "intersecting_domains": [
+      "Genomics"
+    ],
+    "user_query": "CRISPR off-target mutation rates",
+    "fuzzy_intent_explanation": "The user explores distributions and predictors of unintended edits across guides, genomes, and experimental platforms."
+  },
+  {
+    "query_id": "Mixed_018",
+    "intersecting_domains": [
+      "Coastal Engineering",
+      "Actuarial Science"
+    ],
+    "user_query": "coastal flooding risks and insurance premiums",
+    "fuzzy_intent_explanation": "The user analyzes how coastal inundation probabilities and hazard models translate into insurance pricing and coverage patterns."
+  },
+  {
+    "query_id": "Mixed_019",
+    "intersecting_domains": [
+      "Ornithology"
+    ],
+    "user_query": "avian migration phenology shifts",
+    "fuzzy_intent_explanation": "The user examines long-term changes in migration timing across species, flyways, and climatic gradients."
+  },
+  {
+    "query_id": "Mixed_020",
+    "intersecting_domains": [
+      "Public Health",
+      "Health Informatics"
+    ],
+    "user_query": "telemedicine access and rural health outcomes",
+    "fuzzy_intent_explanation": "The user explores associations between telehealth availability, utilization patterns, and clinical outcomes in rural populations."
+  },
+  {
+    "query_id": "Mixed_021",
+    "intersecting_domains": [
+      "Condensed Matter Physics"
+    ],
+    "user_query": "quantum dot exciton recombination kinetics",
+    "fuzzy_intent_explanation": "The user wants to examine recombination rates, trap states, and temperature-dependent exciton dynamics in colloidal quantum dots."
+  },
+  {
+    "query_id": "Mixed_022",
+    "intersecting_domains": [
+      "Microbial Ecology"
+    ],
+    "user_query": "soil microbial community assembly processes",
+    "fuzzy_intent_explanation": "The user explores drivers of soil microbiome composition, stochastic versus deterministic assembly, and environmental gradients across ecosystems."
+  },
+  {
+    "query_id": "Mixed_023",
+    "intersecting_domains": [
+      "Glaciology"
+    ],
+    "user_query": "glacier mass balance variability",
+    "fuzzy_intent_explanation": "The user seeks patterns and forcings of interannual and regional changes in glacier accumulation and ablation."
+  },
+  {
+    "query_id": "Mixed_024",
+    "intersecting_domains": [
+      "Genomics"
+    ],
+    "user_query": "CRISPR off-target mutation landscapes",
+    "fuzzy_intent_explanation": "The user investigates frequency, sequence context, and genomic distribution of unintended edits across CRISPR platforms."
+  },
+  {
+    "query_id": "Mixed_025",
+    "intersecting_domains": [
+      "Transportation Engineering"
+    ],
+    "user_query": "urban traffic flow oscillations",
+    "fuzzy_intent_explanation": "The user examines stop-and-go wave formation, congestion propagation, and control strategies in urban networks."
+  },
+  {
+    "query_id": "Mixed_026",
+    "intersecting_domains": [
+      "Climate Science",
+      "Public Health",
+      "Energy Systems"
+    ],
+    "user_query": "heatwave mortality and grid reliability",
+    "fuzzy_intent_explanation": "The user studies how extreme heat affects mortality while simultaneous electricity demand and outages modify exposure and risk."
+  },
+  {
+    "query_id": "Mixed_027",
+    "intersecting_domains": [
+      "Atmospheric Science",
+      "Public Health",
+      "Education Research"
+    ],
+    "user_query": "wildfire smoke exposure and learning outcomes",
+    "fuzzy_intent_explanation": "The user explores associations between smoke-driven air quality degradation and student performance across schools and time."
+  },
+  {
+    "query_id": "Mixed_028",
+    "intersecting_domains": [
+      "Agricultural Science",
+      "Ecology"
+    ],
+    "user_query": "crop yield variability under pollinator declines",
+    "fuzzy_intent_explanation": "The user examines sensitivity of crop productivity to changes in pollinator abundance, diversity, and landscape structure."
+  },
+  {
+    "query_id": "Mixed_029",
+    "intersecting_domains": [
+      "Climate Science",
+      "Economics",
+      "Urban Planning"
+    ],
+    "user_query": "coastal flooding and housing market dynamics",
+    "fuzzy_intent_explanation": "The user analyzes how flood risk and events influence housing prices, transactions, and migration patterns."
+  },
+  {
+    "query_id": "Mixed_030",
+    "intersecting_domains": [
+      "Computational Social Science",
+      "Public Health"
+    ],
+    "user_query": "social media misinformation and vaccination uptake",
+    "fuzzy_intent_explanation": "The user assesses relationships between misinformation spread, trust dynamics, and immunization rates across populations."
+  },
+  {
+    "query_id": "Mixed_031",
+    "intersecting_domains": [
+      "Economics",
+      "Climate Science"
+    ],
+    "user_query": "carbon pricing impacts on industrial emissions",
+    "fuzzy_intent_explanation": "The user seeks to assess how carbon pricing policies influence sectoral and regional industrial emissions over time, exploring heterogeneous responses and rebound effects."
+  },
+  {
+    "query_id": "Mixed_032",
+    "intersecting_domains": [
+      "Neuroscience"
+    ],
+    "user_query": "hippocampal place cell remapping dynamics",
+    "fuzzy_intent_explanation": "The user aims to examine variability in place cell map changes across contexts, sleep states, and learning phases, focusing on stability and transition patterns."
+  },
+  {
+    "query_id": "Mixed_033",
+    "intersecting_domains": [
+      "Environmental Health",
+      "Transportation"
+    ],
+    "user_query": "traffic emissions and respiratory health disparities",
+    "fuzzy_intent_explanation": "The user investigates associations between roadway pollution exposure and respiratory outcomes, emphasizing spatial inequities across neighborhoods and demographic groups."
+  },
+  {
+    "query_id": "Mixed_034",
+    "intersecting_domains": [
+      "Genomics"
+    ],
+    "user_query": "rare variant burden in autism",
+    "fuzzy_intent_explanation": "The user explores aggregate rare genetic variant load and its relationship to autism spectrum phenotypes across cohorts, genes, and inheritance patterns."
+  },
+  {
+    "query_id": "Mixed_035",
+    "intersecting_domains": [
+      "Agronomy",
+      "Hydrology",
+      "Remote Sensing"
+    ],
+    "user_query": "drought stress and crop yield variability",
+    "fuzzy_intent_explanation": "The user examines links between drought indices and yield anomalies across crops, regions, and seasons using in-situ and satellite-derived indicators."
+  },
+  {
+    "query_id": "Mixed_036",
+    "intersecting_domains": [
+      "Materials Science"
+    ],
+    "user_query": "perovskite solar absorber stability mechanisms",
+    "fuzzy_intent_explanation": "The user seeks to characterize degradation pathways in perovskite absorbers under heat, moisture, and illumination, comparing compositions and encapsulation strategies."
+  },
+  {
+    "query_id": "Mixed_037",
+    "intersecting_domains": [
+      "Machine Learning",
+      "Medical Imaging"
+    ],
+    "user_query": "foundation models for radiology annotation bias",
+    "fuzzy_intent_explanation": "The user aims to evaluate biases arising from radiology labels and model training, comparing performance across institutions, modalities, and patient subgroups."
+  },
+  {
+    "query_id": "Mixed_038",
+    "intersecting_domains": [
+      "Climate Science"
+    ],
+    "user_query": "monsoon onset variability drivers",
+    "fuzzy_intent_explanation": "The user investigates atmospheric and oceanic precursors, such as SST gradients and circulation anomalies, that modulate interannual variability in monsoon onset."
+  },
+  {
+    "query_id": "Mixed_039",
+    "intersecting_domains": [
+      "Marine Ecology",
+      "Fisheries Economics"
+    ],
+    "user_query": "trophic cascades and coastal fisheries yields",
+    "fuzzy_intent_explanation": "The user examines how predator-prey shifts influence catch rates and economic outcomes in coastal fisheries, comparing management regimes and ecosystem states."
+  },
+  {
+    "query_id": "Mixed_040",
+    "intersecting_domains": [
+      "Ecology"
+    ],
+    "user_query": "kelp forest herbivory dynamics",
+    "fuzzy_intent_explanation": "The user explores patterns of grazer pressure, kelp canopy changes, and environmental drivers shaping kelp forest resilience across sites and seasons."
+  },
+  {
+    "query_id": "Mixed_041",
+    "intersecting_domains": [
+      "Condensed Matter Physics"
+    ],
+    "user_query": "quantum materials phase transitions",
+    "fuzzy_intent_explanation": "The user examines temperature-, pressure-, or doping-driven phase transitions and collective excitations in quantum materials."
+  },
+  {
+    "query_id": "Mixed_042",
+    "intersecting_domains": [
+      "Climate Science",
+      "Energy Systems",
+      "Urban Planning"
+    ],
+    "user_query": "urban heat islands energy demand patterns",
+    "fuzzy_intent_explanation": "The user explores how urban microclimates elevate cooling loads and shape neighborhood-level electricity demand patterns."
+  },
+  {
+    "query_id": "Mixed_043",
+    "intersecting_domains": [
+      "Microbiology"
+    ],
+    "user_query": "microbiome resilience under antibiotic perturbation",
+    "fuzzy_intent_explanation": "The user investigates community stability and recovery of microbiomes following antibiotic disturbances across hosts and timescales."
+  },
+  {
+    "query_id": "Mixed_044",
+    "intersecting_domains": [
+      "Climate Science",
+      "Agricultural Economics"
+    ],
+    "user_query": "drought shocks and crop market volatility",
+    "fuzzy_intent_explanation": "The user analyzes how precipitation deficits translate into yield losses and propagate price volatility across regional crop markets."
+  },
+  {
+    "query_id": "Mixed_045",
+    "intersecting_domains": [
+      "Computer Science"
+    ],
+    "user_query": "graph neural networks scalability limits",
+    "fuzzy_intent_explanation": "The user probes performance bottlenecks and memory–computation tradeoffs that limit large-scale graph neural network training."
+  },
+  {
+    "query_id": "Mixed_046",
+    "intersecting_domains": [
+      "Environmental Health",
+      "Cognitive Science",
+      "Economics"
+    ],
+    "user_query": "air pollution and cognitive performance",
+    "fuzzy_intent_explanation": "The user studies associations between ambient air pollutants and short-run cognitive function, attention, or productivity outcomes."
+  },
+  {
+    "query_id": "Mixed_047",
+    "intersecting_domains": [
+      "Hydrology"
+    ],
+    "user_query": "riverine sediment transport dynamics",
+    "fuzzy_intent_explanation": "The user assesses drivers of sediment flux, channel morphology, and event-scale transport variability in rivers."
+  },
+  {
+    "query_id": "Mixed_048",
+    "intersecting_domains": [
+      "Energy Systems",
+      "Electrical Engineering",
+      "Operations Research"
+    ],
+    "user_query": "renewable penetration and grid stability",
+    "fuzzy_intent_explanation": "The user evaluates how high renewable shares affect frequency control, reserve needs, and operational stability under varied demand and weather."
+  },
+  {
+    "query_id": "Mixed_049",
+    "intersecting_domains": [
+      "Biophysics"
+    ],
+    "user_query": "protein folding energy landscapes",
+    "fuzzy_intent_explanation": "The user explores relationships between sequence, folding pathways, and rugged energy landscapes across proteins and conditions."
+  },
+  {
+    "query_id": "Mixed_050",
+    "intersecting_domains": [
+      "Public Health",
+      "Social Science",
+      "Information Science"
+    ],
+    "user_query": "social media exposure and vaccine uptake",
+    "fuzzy_intent_explanation": "The user examines how online information exposure and misinformation influence vaccination intent and uptake across populations."
+  },
+  {
+    "query_id": "Mixed_051",
+    "intersecting_domains": [
+      "Marine Microbiology"
+    ],
+    "user_query": "deep sea microbial carbon assimilation",
+    "fuzzy_intent_explanation": "The user seeks broad datasets on how marine microbes assimilate carbon across depths, conditions, and community compositions in the ocean."
+  },
+  {
+    "query_id": "Mixed_052",
+    "intersecting_domains": [
+      "Semiconductor Physics"
+    ],
+    "user_query": "quantum dot exciton recombination dynamics",
+    "fuzzy_intent_explanation": "The user explores variability in exciton lifetimes and recombination pathways in quantum dots across materials, sizes, and temperatures."
+  },
+  {
+    "query_id": "Mixed_053",
+    "intersecting_domains": [
+      "Agronomy"
+    ],
+    "user_query": "soil salinity impacts on crop yield",
+    "fuzzy_intent_explanation": "The user aims to relate spatial-temporal soil salinity patterns with yield reductions across crops, soils, and irrigation regimes."
+  },
+  {
+    "query_id": "Mixed_054",
+    "intersecting_domains": [
+      "Atmospheric Chemistry"
+    ],
+    "user_query": "boreal wildfire smoke aerosol properties",
+    "fuzzy_intent_explanation": "The user investigates composition, size distributions, and optical properties of aerosols from boreal wildfire plumes across transport distances."
+  },
+  {
+    "query_id": "Mixed_055",
+    "intersecting_domains": [
+      "Biophysics"
+    ],
+    "user_query": "protein phase separation thermodynamics",
+    "fuzzy_intent_explanation": "The user seeks datasets on conditions governing biomolecular condensate formation, phase diagrams, and critical behavior in proteins."
+  },
+  {
+    "query_id": "Mixed_056",
+    "intersecting_domains": [
+      "Urban Climate",
+      "Energy Systems"
+    ],
+    "user_query": "urban heat islands and energy demand",
+    "fuzzy_intent_explanation": "The user explores links between urban heat intensity and electricity consumption or peak loads across cities and seasons."
+  },
+  {
+    "query_id": "Mixed_057",
+    "intersecting_domains": [
+      "Climate Science",
+      "Epidemiology"
+    ],
+    "user_query": "climate variability and vector borne disease",
+    "fuzzy_intent_explanation": "The user analyzes relationships between temperature, precipitation variability, and incidence of mosquito- or tick-borne illnesses across regions."
+  },
+  {
+    "query_id": "Mixed_058",
+    "intersecting_domains": [
+      "Power Systems Engineering",
+      "Energy Economics"
+    ],
+    "user_query": "renewable curtailment and grid flexibility economics",
+    "fuzzy_intent_explanation": "The user evaluates how grid flexibility measures affect renewable curtailment levels and associated economic costs under varying penetrations."
+  },
+  {
+    "query_id": "Mixed_059",
+    "intersecting_domains": [
+      "Environmental Economics",
+      "Land Use Science"
+    ],
+    "user_query": "socioeconomic drivers of deforestation fronts",
+    "fuzzy_intent_explanation": "The user probes how market prices, infrastructure, and policies correlate with expansion of deforestation fronts across landscapes."
+  },
+  {
+    "query_id": "Mixed_060",
+    "intersecting_domains": [
+      "Medical Imaging",
+      "Health Informatics"
+    ],
+    "user_query": "AI assisted radiology workflow efficiency",
+    "fuzzy_intent_explanation": "The user assesses how AI tools influence imaging throughput, reporting times, and diagnostic backlogs across healthcare settings."
+  },
+  {
+    "query_id": "Mixed_061",
+    "intersecting_domains": [
+      "Neuroscience"
+    ],
+    "user_query": "hippocampal oscillations memory consolidation",
+    "fuzzy_intent_explanation": "The user examines how hippocampal oscillatory patterns relate to memory consolidation across behavioral states and sleep stages."
+  },
+  {
+    "query_id": "Mixed_062",
+    "intersecting_domains": [
+      "Environmental Economics",
+      "Climate Policy"
+    ],
+    "user_query": "carbon pricing effects on industrial emissions",
+    "fuzzy_intent_explanation": "The user explores associations between carbon pricing schemes and changes in industrial sector emissions across regions and time."
+  },
+  {
+    "query_id": "Mixed_063",
+    "intersecting_domains": [
+      "Epigenomics"
+    ],
+    "user_query": "genome wide methylation age clocks",
+    "fuzzy_intent_explanation": "The user aims to compare genome-wide DNA methylation signatures used to estimate biological age across cohorts and tissues."
+  },
+  {
+    "query_id": "Mixed_064",
+    "intersecting_domains": [
+      "Microbiology",
+      "Nutrition",
+      "Metabolomics"
+    ],
+    "user_query": "microbiome diet interactions and metabolism",
+    "fuzzy_intent_explanation": "The user investigates how dietary variation shapes gut microbial communities and downstream metabolic phenotypes in populations."
+  },
+  {
+    "query_id": "Mixed_065",
+    "intersecting_domains": [
+      "Geophysics"
+    ],
+    "user_query": "fault rupture propagation in subduction zones",
+    "fuzzy_intent_explanation": "The user studies rupture propagation characteristics of subduction zone earthquakes using seismic observations and modeling."
+  },
+  {
+    "query_id": "Mixed_066",
+    "intersecting_domains": [
+      "Environmental Health",
+      "Education"
+    ],
+    "user_query": "wildfire smoke exposure and school performance",
+    "fuzzy_intent_explanation": "The user seeks to link episodic smoke exposure from wildfires to student attendance, test scores, and school-level outcomes."
+  },
+  {
+    "query_id": "Mixed_067",
+    "intersecting_domains": [
+      "Condensed Matter Physics"
+    ],
+    "user_query": "quantum dot exciton recombination dynamics",
+    "fuzzy_intent_explanation": "The user explores exciton recombination pathways and lifetimes in quantum dots under varying temperatures and confinement conditions."
+  },
+  {
+    "query_id": "Mixed_068",
+    "intersecting_domains": [
+      "Urban Planning",
+      "Transportation Engineering",
+      "Labor Economics"
+    ],
+    "user_query": "remote work patterns and urban mobility",
+    "fuzzy_intent_explanation": "The user analyzes how shifts toward remote work alter urban travel demand, transit ridership, and commuting patterns."
+  },
+  {
+    "query_id": "Mixed_069",
+    "intersecting_domains": [
+      "Agronomy"
+    ],
+    "user_query": "crop phenology under heat stress",
+    "fuzzy_intent_explanation": "The user examines how heat stress alters crop developmental timing and phenological stages across cultivars and climates."
+  },
+  {
+    "query_id": "Mixed_070",
+    "intersecting_domains": [
+      "Medical Imaging",
+      "Artificial Intelligence",
+      "Health Services Research"
+    ],
+    "user_query": "AI assisted radiology workflow efficiency",
+    "fuzzy_intent_explanation": "The user evaluates impacts of AI-enabled tools on radiology reading times, throughput, and diagnostic workflows in clinical settings."
+  },
+  {
+    "query_id": "Mixed_071",
+    "intersecting_domains": [
+      "Climate Science"
+    ],
+    "user_query": "atmospheric rivers landfall frequency trends",
+    "fuzzy_intent_explanation": "The user investigates trends and drivers of atmospheric river landfall frequency across regions and climate modes."
+  },
+  {
+    "query_id": "Mixed_072",
+    "intersecting_domains": [
+      "Neuroscience"
+    ],
+    "user_query": "resting state functional connectivity variability",
+    "fuzzy_intent_explanation": "The user explores variability in resting state functional connectivity across individuals, sessions, and brain networks."
+  },
+  {
+    "query_id": "Mixed_073",
+    "intersecting_domains": [
+      "Ecology"
+    ],
+    "user_query": "forest fragmentation edge effects biodiversity",
+    "fuzzy_intent_explanation": "The user examines how forest fragmentation edges influence biodiversity patterns and species assemblages across landscapes."
+  },
+  {
+    "query_id": "Mixed_074",
+    "intersecting_domains": [
+      "Economics"
+    ],
+    "user_query": "minimum wage employment elasticity heterogeneity",
+    "fuzzy_intent_explanation": "The user analyzes heterogeneity in employment elasticity to minimum wage changes across sectors, regions, and time."
+  },
+  {
+    "query_id": "Mixed_075",
+    "intersecting_domains": [
+      "Climate Science",
+      "Economics"
+    ],
+    "user_query": "heat waves labor productivity losses",
+    "fuzzy_intent_explanation": "The user assesses how heat waves reduce labor productivity and economic output across sectors and climates."
+  },
+  {
+    "query_id": "Mixed_076",
+    "intersecting_domains": [
+      "Public Health",
+      "Urban Planning",
+      "Environmental Science"
+    ],
+    "user_query": "green infrastructure air quality health benefits",
+    "fuzzy_intent_explanation": "The user evaluates co-benefits of urban green infrastructure on air quality improvements and population health outcomes."
+  },
+  {
+    "query_id": "Mixed_077",
+    "intersecting_domains": [
+      "Hydrology",
+      "Agricultural Sciences"
+    ],
+    "user_query": "groundwater depletion crop yield resilience",
+    "fuzzy_intent_explanation": "The user studies links between groundwater depletion and crop yield resilience under water stress and climate variability."
+  },
+  {
+    "query_id": "Mixed_078",
+    "intersecting_domains": [
+      "Machine Learning",
+      "Genomics"
+    ],
+    "user_query": "federated learning genomic privacy tradeoffs",
+    "fuzzy_intent_explanation": "The user investigates performance and privacy tradeoffs of federated learning on genomic data across cohorts and sites."
+  },
+  {
+    "query_id": "Mixed_079",
+    "intersecting_domains": [
+      "Astrophysics"
+    ],
+    "user_query": "exoplanet transit timing variations",
+    "fuzzy_intent_explanation": "The user analyzes transit timing variation signals to infer exoplanet masses and orbital dynamics."
+  },
+  {
+    "query_id": "Mixed_080",
+    "intersecting_domains": [
+      "Sociology",
+      "Network Science",
+      "Information Science"
+    ],
+    "user_query": "misinformation diffusion social network structures",
+    "fuzzy_intent_explanation": "The user explores how misinformation spreads given social network structures and platform dynamics."
+  },
+  {
+    "query_id": "Mixed_081",
+    "intersecting_domains": [
+      "Neuroscience"
+    ],
+    "user_query": "astrocyte calcium signaling heterogeneity",
+    "fuzzy_intent_explanation": "The user explores variability in astrocyte calcium event dynamics across brain regions, behavioral states, and stimuli."
+  },
+  {
+    "query_id": "Mixed_082",
+    "intersecting_domains": [
+      "Geophysics"
+    ],
+    "user_query": "slow slip events recurrence intervals",
+    "fuzzy_intent_explanation": "The user investigates temporal patterns and controlling factors of slow slip events along subduction zones."
+  },
+  {
+    "query_id": "Mixed_083",
+    "intersecting_domains": [
+      "Microbiology"
+    ],
+    "user_query": "microbiome diurnal oscillations",
+    "fuzzy_intent_explanation": "The user examines circadian fluctuations in microbial community composition and metabolite production across hosts and environments."
+  },
+  {
+    "query_id": "Mixed_084",
+    "intersecting_domains": [
+      "Materials Science"
+    ],
+    "user_query": "perovskite film degradation pathways",
+    "fuzzy_intent_explanation": "The user seeks broad mechanisms and rates of perovskite photovoltaic degradation under heat, light, oxygen, and moisture."
+  },
+  {
+    "query_id": "Mixed_085",
+    "intersecting_domains": [
+      "Climate Science",
+      "Energy Systems",
+      "Urban Planning",
+      "Economics"
+    ],
+    "user_query": "urban heat islands energy demand elasticity",
+    "fuzzy_intent_explanation": "The user analyzes how intra-urban temperature anomalies modulate electricity demand sensitivity across neighborhoods and seasons."
+  },
+  {
+    "query_id": "Mixed_086",
+    "intersecting_domains": [
+      "Environmental Health",
+      "Education",
+      "Economics"
+    ],
+    "user_query": "air pollution and educational attainment",
+    "fuzzy_intent_explanation": "The user studies associations between ambient pollution exposure and student performance, attendance, and long-run outcomes."
+  },
+  {
+    "query_id": "Mixed_087",
+    "intersecting_domains": [
+      "Climate Science",
+      "Economics",
+      "Demography"
+    ],
+    "user_query": "climate migration and labor productivity",
+    "fuzzy_intent_explanation": "The user explores links among climate-driven migration patterns, workforce composition, and productivity across regions."
+  },
+  {
+    "query_id": "Mixed_088",
+    "intersecting_domains": [
+      "Economics",
+      "Ecology",
+      "Conservation Biology"
+    ],
+    "user_query": "supply chain disruptions biodiversity impacts",
+    "fuzzy_intent_explanation": "The user probes how trade and logistics shocks shift land use and harvest pressures, affecting species and habitats."
+  },
+  {
+    "query_id": "Mixed_089",
+    "intersecting_domains": [
+      "Nanophotonics"
+    ],
+    "user_query": "quantum dot blinking statistics",
+    "fuzzy_intent_explanation": "The user characterizes distributions and timescales of on-off emission fluctuations under varying excitation and environments."
+  },
+  {
+    "query_id": "Mixed_090",
+    "intersecting_domains": [
+      "Agricultural Economics",
+      "Climate Risk",
+      "Development Studies"
+    ],
+    "user_query": "drought insurance adoption smallholder yields",
+    "fuzzy_intent_explanation": "The user evaluates relationships between index insurance uptake, climate shocks, and crop productivity among smallholders."
+  },
+  {
+    "query_id": "Mixed_091",
+    "intersecting_domains": [
+      "Materials Science"
+    ],
+    "user_query": "quantum dot photoluminescence stability",
+    "fuzzy_intent_explanation": "The user explores how synthesis conditions, surface passivation, and environmental stressors affect long-term photoluminescence stability and variability in colloidal quantum dots."
+  },
+  {
+    "query_id": "Mixed_092",
+    "intersecting_domains": [
+      "Seismology"
+    ],
+    "user_query": "fault rupture segmentation patterns",
+    "fuzzy_intent_explanation": "The user investigates spatial and temporal patterns of fault rupture segmentation, including barriers, stepovers, and multi-segment events inferred from seismic catalogs and paleoseismology."
+  },
+  {
+    "query_id": "Mixed_093",
+    "intersecting_domains": [
+      "Microbiome Science"
+    ],
+    "user_query": "gut microbiome diurnal oscillations",
+    "fuzzy_intent_explanation": "The user seeks population-scale evidence for daily oscillations in gut microbial taxa, metabolites, and host-linked functions across diets and lifestyles."
+  },
+  {
+    "query_id": "Mixed_094",
+    "intersecting_domains": [
+      "Astrophysics"
+    ],
+    "user_query": "galactic bar pattern speeds",
+    "fuzzy_intent_explanation": "The user analyzes measurements and simulations of galactic bar pattern speeds to compare dynamical evolution across galaxy morphologies and redshifts."
+  },
+  {
+    "query_id": "Mixed_095",
+    "intersecting_domains": [
+      "Geomorphology"
+    ],
+    "user_query": "riverine sediment grain size distributions",
+    "fuzzy_intent_explanation": "The user examines how flow regime, watershed lithology, and channel hydraulics shape riverine sediment grain size distributions across basins and seasons."
+  },
+  {
+    "query_id": "Mixed_096",
+    "intersecting_domains": [
+      "Climate Science",
+      "Energy Systems",
+      "Urban Planning"
+    ],
+    "user_query": "urban heat island energy demand",
+    "fuzzy_intent_explanation": "The user relates urban heat island intensity to spatial and temporal variations in electricity demand, building cooling loads, and peak load events across cities."
+  },
+  {
+    "query_id": "Mixed_097",
+    "intersecting_domains": [
+      "Climate Science",
+      "Economics",
+      "Agricultural Science"
+    ],
+    "user_query": "climate shocks commodity price volatility",
+    "fuzzy_intent_explanation": "The user links climate shocks such as droughts and heatwaves to commodity price volatility and market transmission across regions and supply chains."
+  },
+  {
+    "query_id": "Mixed_098",
+    "intersecting_domains": [
+      "Environmental Health",
+      "Epidemiology",
+      "Obstetrics"
+    ],
+    "user_query": "air pollution fetal growth outcomes",
+    "fuzzy_intent_explanation": "The user assesses associations between ambient air pollution exposures and fetal growth outcomes, considering exposure windows, confounders, and spatial variability."
+  },
+  {
+    "query_id": "Mixed_099",
+    "intersecting_domains": [
+      "Transportation Engineering",
+      "Power Systems",
+      "Economics"
+    ],
+    "user_query": "electric vehicle adoption grid stability",
+    "fuzzy_intent_explanation": "The user studies how electric vehicle adoption patterns influence grid stability, including load profiles, charging behaviors, and impacts on frequency and voltage."
+  },
+  {
+    "query_id": "Mixed_100",
+    "intersecting_domains": [
+      "Ecology",
+      "Epidemiology",
+      "Conservation Science"
+    ],
+    "user_query": "biodiversity loss disease spillover risk",
+    "fuzzy_intent_explanation": "The user evaluates how biodiversity loss alters disease spillover risk across landscapes, integrating host community structure, vector ecology, and land-use change."
+  }
+]
